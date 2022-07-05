@@ -3,6 +3,8 @@
 }
 .hero{
  height: 60vh;
+ /* width: 70vw;
+ margin: 0 auto; */
  background: url(./images/donation6.jpg) center/cover no-repeat;
  margin-bottom: 2rem;
  border-radius: 3px;
@@ -80,4 +82,41 @@ margin: 10px;
  color: white;
  border-radius: 3px;
  border: transparent;
+}
+.about-plan{
+ 
+}
+.plan{
+ display: flex;
+ flex-direction: column;
+ /* justify-content: center;
+ align-items: center; */
+ height: 30vh;
+ width:40% ;
+ margin: 0 auto;
+}
+.plan-text{
+ text-align: center;
+ padding: 10px;
+ width: 50%;
+ margin: 0 auto;
+}
+.plan-family{
+ display: flex;
+ justify-content: space-between;
+}
+.family1{
+ margin-left: 50px;
+ background: red;
+ padding: 10px;
+ border-radius: 5px;
+}
+#one{
+ background: rgb(186, 214, 224);
+}
+#two{
+ background: rgb(226, 202, 206);
+}
+#three{
+ background: rgb(208, 176, 117);
 }
