@@ -12,8 +12,6 @@ body{
 }
 .hero{
  height: 100vh;
- /* width: 70vw;
- margin: 0 auto; */
  background: url(./images/donation6.jpg) center/cover no-repeat;
  margin-bottom: 2rem;
  border-radius: 3px;
@@ -54,7 +52,6 @@ body{
 
 .about-today{
  margin: 0 auto;
- /* height:50vh ; */
 text-align: center; 
 }
 .donate-text{
@@ -159,7 +156,6 @@ width: 250px;
  border-radius: 5px;
 border: transparent;
  box-shadow: 5px 3px 8px;
- /* padding-bottom: 15px; */
 }
 .hero2 h1{
  font-weight: bold;
@@ -196,7 +192,6 @@ border-radius: 5px;
 font-size: 0;
 }
 .email-gray{
- /* background-color: rgb(112, 106, 106); */
  color: black;
   border: transparent;
   padding:10px 20px ;
