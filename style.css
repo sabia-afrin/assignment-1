@@ -1,9 +1,11 @@
 *{
  margin: 0;
  text-transform: capitalize;
+ letter-spacing: 1px;
+ font-size: 1.5;
 }
 body{
- background: rgb(249, 245, 245);
+ background: rgb(248, 244, 244);
 }
 .hero{
  height: 100vh;
@@ -112,8 +114,10 @@ margin-top:10px;
 .plan-text{
  text-align: center;
  padding: 20px;
- /* width: 50%; */
  margin: 0 auto;
+}
+.plan-text p{
+width: 250px;
 }
 .plan-family{
  display: flex;
@@ -134,6 +138,32 @@ margin-top:10px;
 }
 #three{
  background: rgb(208, 176, 117);
+}
+.hero2{
+ text-align: center;
+ padding:50px;
+ background: rgb(235, 242, 245);
+}
+.hero2-img img{
+ width: 400px;
+ background-position: center;
+ border-radius: 5px;
+border: transparent;
+ box-shadow: 5px 3px 8px;
+ /* padding-bottom: 15px; */
+}
+.hero2 h1{
+ font-weight: bold;
+ padding: 20px;
+
+}
+.hero2 p{
+ padding-top: 20px;
+}
+.hero-last{
+  display: flex;
+  width: 700px;
+  margin: 0 auto;
 }
 /* update section */
 .update{
@@ -171,4 +201,20 @@ font-size: 0;
  border: transparent;
  border-radius: 3px;
  padding: 10px 20px;
+}
+.submit-btn:hover{
+ background: rgb(172, 13, 13);
+ color: white;
+}
+.page-footer{
+ background: rgb(90, 85, 85);
+ padding: 1rem;
+ text-align: center;
+ color: white;
+}
+#date{
+ color: rgb(142, 142, 229);
+}
+.page-footer :hover{
+color: black;
 }
