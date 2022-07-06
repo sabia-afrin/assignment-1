@@ -107,21 +107,24 @@ margin-top:10px;
  margin: 0 auto;
  text-decoration: none;
  color: black;
+ width: 90vw;
 }
 .plan-text{
  text-align: center;
  padding: 20px;
- width: 50%;
+ /* width: 50%; */
  margin: 0 auto;
 }
 .plan-family{
  display: flex;
+ width:90vw;
 }
 .family1{
  margin-left: 50px;
  background: red;
  padding: 10px;
  border-radius: 5px;
+ 
 }
 #one{
  background: rgb(186, 214, 224);
