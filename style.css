@@ -1,5 +1,6 @@
 *{
  margin: 0;
+ text-transform: capitalize;
 }
 body{
  background: rgb(249, 245, 245);
@@ -97,25 +98,24 @@ margin-top:10px;
 }
 /* plan */
 .about-plan{
- 
+ text-decoration: none;
 }
 .plan{
  display: flex;
  flex-direction: column;
- justify-content:space-evenly;
  align-items: center;
- height: 50vh;
  margin: 0 auto;
+ text-decoration: none;
+ color: black;
 }
 .plan-text{
  text-align: center;
- padding: 10px;
+ padding: 20px;
  width: 50%;
  margin: 0 auto;
 }
 .plan-family{
  display: flex;
- justify-content: space-between;
 }
 .family1{
  margin-left: 50px;
