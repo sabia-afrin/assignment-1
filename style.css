@@ -132,3 +132,40 @@ margin-top:10px;
 #three{
  background: rgb(208, 176, 117);
 }
+/* update section */
+.update{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ margin: 5rem auto;
+width: 700px;
+} a
+.update-text{
+ 
+
+}
+.update-btn{
+height: 4rem;
+width: 700px;
+margin: 40px auto;
+padding-top: 50px;
+background: rgb(235, 201, 207);
+border-radius: 5px;
+font-size: 0;
+}
+.email-gray{
+ /* background-color: rgb(112, 106, 106); */
+ color: black;
+  border: transparent;
+  padding:10px 20px ;
+  border-radius: 3px;
+   margin-left: 0;
+
+}
+.submit-btn{
+ margin-left: 0;
+ background: red;
+ border: transparent;
+ border-radius: 3px;
+ padding: 10px 20px;
+}
